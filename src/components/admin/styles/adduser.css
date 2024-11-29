@@ -1,0 +1,27 @@
+.adduser-body {
+  /* border: 1px solid black; */
+  width: 80%;
+  background: #f4f5fa;
+}
+.adduser-form::-webkit-scrollbar {
+  display: none;
+}
+.adduser-form {
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  background: #fff;
+  overflow: scroll;
+}
+.adduser-submit-btn {
+  border: none;
+  border-radius: 15px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  height: 2.7rem;
+  background: linear-gradient(
+    109.6deg,
+    rgba(119, 44, 232, 0.68) 11.5%,
+    rgb(119, 44, 232) 91.2%
+  );
+  color: #fff;
+}

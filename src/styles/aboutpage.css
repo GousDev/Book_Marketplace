@@ -1,0 +1,64 @@
+.aboutpage {
+  background: #fef5e6;
+}
+.aboutpage-img {
+  object-fit: cover;
+  height: 50vh;
+}
+.aboutpage h2 {
+  word-spacing: 4px;
+}
+
+.aboutpage-img2 {
+  height: 60vh;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 573px) {
+  .aboutpage-img {
+    height: 30vh;
+  }
+  .aboutpage-header1 {
+    margin-bottom: 1rem !important;
+  }
+  .aboutpage h2 {
+    word-spacing: 0px;
+    width: 85% !important;
+  }
+  .aboutpage-img2 {
+    height: 28vh;
+    object-fit: cover;
+  }
+}
+@media (min-width: 574px) and (max-width: 768px) {
+  .aboutpage-img {
+    height: 30vh;
+  }
+  .aboutpage-header1 {
+    margin-bottom: 1rem !important;
+  }
+  .aboutpage h2 {
+    word-spacing: 0px;
+    width: 85% !important;
+  }
+  .aboutpage-img2 {
+    height: 30vh;
+    object-fit: cover;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .aboutpage-img {
+    height: 30vh;
+  }
+  .aboutpage-header1 {
+    margin-bottom: 3rem !important;
+  }
+  .aboutpage h2 {
+    word-spacing: 2px;
+    width: 85% !important;
+  }
+  .aboutpage-img2 {
+    height: 30vh;
+    object-fit: cover;
+  }
+}

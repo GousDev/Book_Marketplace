@@ -1,0 +1,118 @@
+.cart {
+  /* border: 1px solid black; */
+  margin: 0 2rem;
+}
+.cart-header {
+  /* border: 1px solid black; */
+  height: 12vh;
+}
+.cart-header .btn {
+  font-weight: 500;
+}
+.arrow-icon {
+  font-size: 1rem !important;
+}
+.cart-header .arrow-icon {
+  transform: translate(0px);
+  opacity: 1;
+  transition: transform 0.3s ease;
+}
+
+.cart-header button:hover .arrow-icon {
+  opacity: 1;
+  transform: translate(-5px);
+}
+
+.cart-middle {
+  /* border: 1px solid black; */
+  height: 55vh;
+}
+.cart-middle-title {
+  /* border: 1px solid black; */
+  height: 10%;
+  list-style: none;
+  position: relative;
+}
+.cart-middle-title::after {
+  content: "";
+  border-bottom: 1px solid lightgray;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 90%;
+  margin: auto;
+}
+.cart-middle-title li:nth-child(1) {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-middle-title li:nth-child(2) {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-middle-title li:nth-child(3) {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-middle-title li:nth-child(4) {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-middle-item {
+  overflow-y: scroll;
+}
+.cart-middle-item::-webkit-scrollbar {
+  display: none;
+}
+
+.cart-bottom {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  height: 35vh;
+  background: #e3e7e9;
+  border-radius: 20px;
+}
+.cart-bottom-ad {
+  height: 98%;
+  width: 50%;
+}
+.cart-bottom-ad img {
+  border-radius: 15px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.cart-bottom-pay {
+  /* border: 1px solid black; */
+  height: 80%;
+  width: 30%;
+}
+.cart-bottom-pay span h6 {
+  margin: 0;
+  padding: 0;
+}
+.cart-bottom-pay span h6 {
+  color: grey;
+}
+.checkout-btn {
+  background: #dfaf6c;
+  width: 80%;
+  color: white;
+}

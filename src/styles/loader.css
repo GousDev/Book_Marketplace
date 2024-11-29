@@ -1,0 +1,7 @@
+.loader {
+  height: 100vh;
+  background: #fef5e6;
+}
+.loader img {
+  width: 8vh;
+}

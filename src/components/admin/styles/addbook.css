@@ -1,0 +1,28 @@
+.addbook-body {
+  /* border: 1px solid black; */
+  overflow: scroll;
+  background: #f4f5fa;
+  width: 80%;
+}
+.addbook-body::-webkit-scrollbar {
+  display: none;
+}
+.addbook-form {
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  background: #fff;
+  height: 105vh;
+}
+.addbook-submit-btn {
+    border: none;
+    border-radius: 15px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  height: 2.7rem;
+  background: linear-gradient(
+    109.6deg,
+    rgba(119, 44, 232, 0.68) 11.5%,
+    rgb(119, 44, 232) 91.2%
+  );
+  color: #fff;
+}

@@ -1,0 +1,23 @@
+.leaflet-container {
+  height: 50vh;
+}
+.contact-detail-items {
+  /* border: 1px solid green; */
+  height: 100%;
+  width: 20%;
+}
+.contact-detail-items span h5,
+p {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+@media screen and (max-width: 574px) {
+  .contact-detail-items {
+    width: 100%;
+  }
+}
+@media (min-width: 575px) and (max-width: 992px) {
+  .contact-detail-items {
+    width: 100%;
+  }
+}

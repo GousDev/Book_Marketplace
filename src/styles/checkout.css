@@ -1,0 +1,99 @@
+.checkout-fluid {
+  height: 90vh;
+  background: #ffffff;
+}
+.checkout {
+  border: 1px solid lightgray;
+  height: 100%;
+}
+
+.checkout-detail {
+  border: 1px solid lightgrey;
+  border-right: none;
+  width: 40%;
+}
+.checkout-detail > div:nth-child(1) {
+  border-bottom: 1px solid lightgray;
+}
+.checkout-detail > div:nth-child(1) > input {
+  font-size: 0.9rem;
+  border: 1px solid grey;
+  border-radius: 4px;
+  outline: none;
+  height: 5vh;
+}
+.checkout-detail > div:nth-child(2) {
+  border-bottom: 1px solid lightgray;
+}
+.checkout-detail > div:nth-child(2) > input {
+  font-size: 0.9rem;
+  border: 1px solid grey;
+  border-radius: 4px;
+  outline: none;
+  height: 5vh;
+}
+.checkout-detail > div:nth-child(2) > div > span {
+  width: 32%;
+}
+.checkout-detail > div:nth-child(2) > div > span > input {
+  font-size: 0.9rem;
+  border: 1px solid grey;
+  border-radius: 4px;
+  outline: none;
+  height: 5vh;
+}
+.checkout-detail > div:nth-child(4) > button {
+  background: black !important;
+  border: none;
+}
+.checkout-detail > div:nth-child(4) > button:hover {
+  background: rgb(27, 27, 27) !important;
+}
+
+/* ------------------------------------------ */
+.checkout-product {
+  /* border: 1px solid red; */
+  width: 40%;
+  overflow-x: scroll;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: #fef5e6;
+}
+.checkout-product::-webkit-scrollbar{
+  display: none;
+}
+.checkout-product-main {
+  /* border: 1px solid red; */
+  border-bottom: 1px solid lightgray;
+  height: 15vh;
+}
+.checkout-product-span1 {
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  background: #f6f6f6;
+  width: 25%;
+}
+.checkout-product-span1 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.checkout-product-span1 {
+  border-radius: 10px;
+}
+.checkout-product-span2 {
+  /* border: 1px solid black; */
+}
+.checkout-product-span2 h6 {
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+.checkout-product-span2 > p {
+  color: gray;
+  font-size: 0.8rem;
+}
+.checkout-product-span3 {
+  /* border: 1px solid green; */
+  font-size: 0.8rem;
+}

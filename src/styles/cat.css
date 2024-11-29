@@ -1,0 +1,23 @@
+.cat {
+  /* border: 2px solid black; */
+  background: #fef5e6;
+}
+
+@media screen and (max-width: 574px) {
+  .cat-main {
+    display: none !important;
+  }
+  .cat-header {
+    padding: 2rem 0 0 0 !important;
+  }
+  .cat-mobile {
+    display: flex !important;
+    padding-top: 0 !important;
+  }
+  .slide {
+    /* border: 2px solid black; */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}

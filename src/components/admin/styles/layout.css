@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.rubik {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+}
+.sans {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* //site design here */
+/* ---------------------------layout header ---------------- */
+.layout-header {
+  height: 9vh;
+  background: #f4f5fa;
+}
+.logo-box {
+  width: 13rem;
+  height: 6vh;
+}
+.logo-img {
+  width: 3rem;
+  height: 100%;
+}
+.logo-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.account {
+  border: 1px solid grey;
+  width: 7.9rem;
+  height: 6vh;
+  border-radius: 20px;
+}
+.account-pic {
+  width: 2.5rem;
+  height: 4.5vh;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.account-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ---------------------------layout Menu bar ---------------- */
+.layout-main {
+  height: 91vh;
+}
+.layout-menu {
+  /* border: 1px solid black; */
+  background: #f4f5fa;
+  width: 20%;
+}
+.layout-menu a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 500;
+  height: 2.7rem;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: black;
+  transition: 0.2s all ease-in-out;
+}
+.layout-menu a:hover {
+  background: lightgray;
+}
+.active {
+  background: linear-gradient(
+    109.6deg,
+    rgba(119, 44, 232, 0.68) 11.5%,
+    rgb(119, 44, 232) 91.2%
+  ) !important;
+  color: #fff !important;
+}

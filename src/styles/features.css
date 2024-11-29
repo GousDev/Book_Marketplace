@@ -1,0 +1,41 @@
+.features {
+  background: #e2ffef;
+  padding: 6rem 2rem 5rem 6rem;
+}
+.box {
+  /* border: 1px solid black; */
+  height: 15rem;
+  width: 15rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.8s ease-in-out, visibility 0.3s ease-in-out;
+}
+.box p {
+  font-size: 0.9rem;
+}
+.box-heading {
+  font-weight: 600;
+}
+.wish-icon {
+  color: rgb(232, 39, 232);
+}
+.sell-icon {
+  color: rgb(242, 107, 54);
+}
+.ship-icon {
+  color: rgb(62, 252, 62);
+}
+.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media screen and (max-width: 574px) {
+  .features {
+    background: #e2ffef;
+    padding: 2rem 0rem 3rem 0rem;
+  }
+}

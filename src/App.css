@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+.varela {
+  font-family: "Varela Round", sans-serif;
+}
+.inc-sans {
+  font-family: "Inclusive Sans", sans-serif;
+}
+.bitter {
+  font-family: "Bitter", serif;
+}
+.anton {
+  font-family: "Anton", sans-serif;
+}
+.blur {
+  filter: blur(0px);
+}

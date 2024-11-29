@@ -1,0 +1,17 @@
+.cc {
+  height: 23rem;
+  width: 14rem;
+  /* border: 1px solid red; */
+}
+.showcase img {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 11rem;
+  height: 17rem;
+}
+.cc-btn {
+  border: none;
+  outline: none;
+  background: transparent;
+  display: flex;
+  flex-wrap: wrap;
+}

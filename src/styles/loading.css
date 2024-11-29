@@ -1,0 +1,14 @@
+.loading-overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for the overlay */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Optional: Add a subtle box shadow */
+  }
